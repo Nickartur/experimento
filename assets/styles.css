@@ -1,0 +1,44 @@
+
+
+.reglag {
+    display: block;
+    border-style: solid;
+    margin: 5px;
+    padding: 4px;
+}
+
+.reglamain {
+    display: flex;
+}
+
+.coloreado {
+    padding: 25px; /* Espaciado interno */
+    border: 2px solid transparent; /* Borde transparente por defecto */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #8D0B41; /* Color de fondo por defecto */
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+    outline: none; /* Elimina el borde de enfoque predeterminado del navegador */
+    color: whitesmoke;
+}
+
+.coloreado:focus {
+    border: 2px solid transparent;
+    background: linear-gradient(#030203, #211aa1) padding-box,
+                linear-gradient(45deg, blue, rgb(221, 48, 48)) border-box;
+    background-clip: padding-box, border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.2); /* Sombra suave */
+}
+
+.coloreado::placeholder { /* Estilo para el placeholder */
+    color: #aaa;
+}
+
+.ed-exp {
+    border: 2px solid rgba(0, 0, 255, 0.2);
+    width: 50%;
+    text-align: center;
+}
+
+.tecnologias {
+    border: 2px solid rgba(0, 0, 255, 0.2);
+}
